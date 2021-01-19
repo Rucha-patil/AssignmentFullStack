@@ -1,0 +1,29 @@
+I tried about this two queries but i didnt get the approximate solutions.
+and also i didnt get how to solve this questions..
+Functions:
+8. Display the number of days between system date and 1st January 1995.
+
+9. Display how many employees joined in each month of the current year.
+
+
+Other than this i completed all the assignment questions of Database as well
+ as done all the assignments of java upto assignment-5. 
+__________________________________________________________________________________________________
+MYSQL ASSIGNMENT STATUS:
+
+Select clause with where clause : completed
+Aggregate : completed
+DDL and DML : completed
+Functions : completed(2 Queries Pending)
+Joins : completed
+Sub-Query : completed
+__________________________________________________________________________________________________
+
+JAVA ASSIGNMENT STATUS:
+
+Assignment-1[Student Examination]: completed
+Assignment-2[Employee Deatils] : completed
+Assignment-3[Employee class Details]: completed
+Assignment-4[Designation of employees] : completed
+Assignment-5[Student deatails using Array object]: completed
+Mini project: working
