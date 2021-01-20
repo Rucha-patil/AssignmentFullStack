@@ -26,4 +26,5 @@ Assignment-2[Employee Deatils] : completed
 Assignment-3[Employee class Details]: completed
 Assignment-4[Designation of employees] : completed
 Assignment-5[Student deatails using Array object]: completed
-Mini project: working
+Assignment-6[MiniProject]-Still working
+Assignment-7[Ascending StringNames]:completed
