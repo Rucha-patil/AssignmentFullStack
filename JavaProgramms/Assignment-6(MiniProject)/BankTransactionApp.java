@@ -1,9 +1,10 @@
+package com;
 import java.util.Scanner;
 
-import com.service.MyBank;
 
 public class BankTransactionApp 
 {
+	
 	public static void main(String args[]) throws Exception
 	{
 		Scanner sc = new Scanner(System.in);
@@ -11,6 +12,8 @@ public class BankTransactionApp
 		int Account_no,Trans_AccNo;
 		float Amount;
 		boolean flag=true;
+		
+		
 		MyBank mybank = new MyBank();
 		do
 		{
