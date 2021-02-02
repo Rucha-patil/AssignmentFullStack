@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="cal.css"> 
     <title>Calculator</title>
     <script>
         function showresult(choice){
@@ -10,6 +11,7 @@
             var no2 = parseFloat(document.getElementById('num2').value);
             var result;
             var c = choice;
+        
 
     switch(c)
 	    {
@@ -19,7 +21,9 @@
             
             case '2':
 		    result=no1-no2;
-		    break;
+            break;
+            
+           
 	
 	        default:
 		    break;
@@ -31,7 +35,8 @@
 </script>
 </head>
 <body>
-    <h1>My calculator</h1>
+    <div class="center">
+    <h1>My Calculator</h1>
     
     
     <h3>First Number :</h3>
@@ -45,6 +50,7 @@
     
     <h3>Result :</h3>
     <input type="text" id='result' ></br>
-   
+    
+    </div>
     </body>
 </html>
