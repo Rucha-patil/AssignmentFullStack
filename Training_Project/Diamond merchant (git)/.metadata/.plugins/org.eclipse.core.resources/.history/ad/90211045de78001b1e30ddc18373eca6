@@ -1,0 +1,47 @@
+package com.repository;
+
+import java.util.List;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.stereotype.Repository;
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+import com.bean.Bill;
+
+@Repository
+public interface BillRepository extends JpaRepository<Bill, Integer>{
+
+	 @Query("FROM bill ORDER BY price ASC")
+	    List<Bill> findAllOrderByPopulationAsc();
+	/*public static final EntityManagerFactory emf = null;
+		public default List<Bill> getAllBidPriceAsc(){
+			EntityManager manager = emf.createEntityManager();
+			Query qry = manager.createQuery("select b.bid from bill b order by b.price;");
+			List<Bill> listofBill = qry.getResultList();
+			return listofBill;
+		}
+		//Ascending order by  price selecting Bpname 
+		public default List<Bill> getAllBpnamePriceAsc(){
+			EntityManager manager = emf.createEntityManager();
+			Query qry = manager.createQuery("select b.pname from bill b order by b.price;");
+			List<Bill> listofBill = qry.getResultList();
+			return listofBill;
+		}
+
+		// Ascending order by price selecting Date
+		public default List<Bill> getAllDateAsc(){
+			EntityManager manager = emf.createEntityManager();
+			Query qry = manager.createQuery("select b.dop from bill b order by b.price;");
+			List<Bill> listofBill = qry.getResultList();
+			return listofBill;
+		}*/
+		
+		
+		
+}

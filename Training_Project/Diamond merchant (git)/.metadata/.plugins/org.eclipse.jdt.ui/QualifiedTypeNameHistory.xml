@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.springframework.data.domain.Sort"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+    <fullyQualifiedTypeName name="javax.persistence.Query"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.Query"/>
+    <fullyQualifiedTypeName name="com.bean.Bill"/>
+    <fullyQualifiedTypeName name="com.bean.Store"/>
+    <fullyQualifiedTypeName name="com.bean.Customer"/>
+    <fullyQualifiedTypeName name="com.bean.Employee"/>
+    <fullyQualifiedTypeName name="com.bean.Retailer"/>
+</qualifiedTypeNameHistroy>

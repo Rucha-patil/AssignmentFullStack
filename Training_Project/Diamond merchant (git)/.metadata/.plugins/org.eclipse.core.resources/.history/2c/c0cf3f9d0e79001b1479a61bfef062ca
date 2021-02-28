@@ -1,0 +1,26 @@
+package com.dao;
+
+import java.util.List;
+
+import javax.persistence.EntityManager;
+import javax.persistence.Query;
+
+import com.bean.Store;
+
+
+	public class SortByStoreDao {
+		public List<Store> getAllStoreAsc() {
+			EntityManager manager = emf.createEntityManager();
+			Query qry = manager.createQuery("select s.storeid, s.contact,s.address,s.storename,s.email ,s.status,s.pname,s.productprice from store s order by s.storename");
+			List<Store> listOfStore = qry.getResultList();
+			return listOfStore;
+		}
+		
+		
+		public List<Store> getAllStoreDesc() {
+			EntityManager manager = emf.createEntityManager();
+			Query qry = manager.createQuery(" select s.storeid, s.contact,s.address,s.storename,s.email ,s.status,s.pname,s.productprice from store s order by s.storename; desc");
+			List<Store> listOfStore = qry.getResultList();
+			return listOfStore;
+		}
+}
